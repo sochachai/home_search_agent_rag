@@ -16,9 +16,13 @@ load_dotenv()
 # your .env file.
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
-CHROMA_PATH = "chroma"
-DATA_PATH = "data"
-
+CHROMA_ROOT = "chroma/"
+DATA_ROOT = "data/"
+CATEGORY = "games"
+DATA_PATH = DATA_ROOT + CATEGORY
+CHROMA_PATH = CHROMA_ROOT + CATEGORY
+#DATA_PATH = "data"
+#CHROMA_PATH = "chroma"
 
 def main():
 

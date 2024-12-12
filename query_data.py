@@ -13,7 +13,10 @@ load_dotenv()
 # Change environment variable name from "OPENAI_API_KEY" to the name given in
 # your .env file.
 openai.api_key = os.getenv('OPENAI_API_KEY')
-CHROMA_PATH = "chroma"
+CHROMA_ROOT = "chroma/"
+CATEGORY = "mathematics"
+CHROMA_PATH = CHROMA_ROOT + CATEGORY
+#CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
