@@ -39,3 +39,10 @@ Below is a breakdown of each client query and the corresponding results.
 
 #### Query 4: "Give me the text description of the property with url being 'https://www.redfin.com/TX/Anna/2008-Erlinda-Dr-75409/home/180312999'"
      Results: AI returns the same text description as displayed in the "about this home" section in the url.
+
+## Note
+The data in this project was web-scraped from Redfin on Dec 14, 2024. The results stored in result_screenshots were generated in Dec 15, 2024. 
+Results might vary if the code scripts are run in a different date as some of the property status might change, i.e. on-sales properties will be off market in the future.  
+
+## Disclaimer
+All data uploaded in this project is open to public and can be found in Redfin's websites
