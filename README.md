@@ -13,7 +13,7 @@ descriptions which are web-scraped to local.
         2.2 Go to Pycharm -> Settings -> Python Interpreter to install the missing package
 
 #### 3. Run in terminal: "python redfin_new_listings.py" to webscrape the url's of Redfin's new listed on sales properties and store the url list as "opening_dec_14_2024.txt"
-#### 4. Run in terminal: "python redfin_webscrape.py" to webscrape the "about this home" text descriptions of all properties whose url's are given in "opening_dec_14_2024.txt" and save the text descriptions as pdf's under the directory data/home
+#### 4. Run in terminal: "python redfin_webscrape.py" to webscrape the "about this home" text descriptions of all properties whose url's are given in "opening_dec_14_2024.txt" and save the text descriptions as pdf's under the directory data/house
 #### 5. Run in terminal: "python update_database.py" to convert the pdf's in Step 4 into vectors in a vector database named "chroma_data"
 #### 6. Run in terminal: "python home_search.py 'Client query'" to ask AI assistant to return the best matched properties or answer any other questions raised by the client.
 
